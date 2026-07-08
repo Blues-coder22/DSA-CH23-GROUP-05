@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- App Title -->
+        <h1>URL Shortener</h1>
+
+        <!-- Short Description -->
+        <p class="description">
+            Paste your long URL below to generate a shortened link.
+        </p>
+
+        <!-- Input Section -->
+        <div class="input-section">
+
+            <input 
+                type="text" 
+                id="urlInput" 
+                placeholder="Enter your long URL here"
+            >
+
+            <button id="shortenBtn">
+                Shorten URL
+            </button>
+
+        </div>
+
+        <!-- Result Section -->
+        <div class="result-section">
+
+            <p>Your shortened URL:</p>
+
+            <div class="short-url-box">
+
+                <input 
+                    type="text" 
+                    id="shortUrl" 
+                    readonly
+                    placeholder="Short URL will appear here"
+                >
+
+                <button id="copyBtn">
+                    Copy
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Error Messo -->
+        <p id="errorMessage"></p>
+
+    </div>
+
+    <!-- Js Link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
