@@ -31,7 +31,7 @@ The URL Shortener System is a web/mobile application designed to convert long UR
 ## Technologies Used
 
 * **Frontend:** HTML, CSS, JavaScript, Google Chrome
-* **Backend:** Node.js, Express.js
+* **Backend:** Flask, Python
 * **Database:** MySQL, phpMyAdmin
 * **Version Control:** Git, GitHub
 * **Tools:** Vs Code, Google Chrome
